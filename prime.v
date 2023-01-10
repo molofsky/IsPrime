@@ -1,7 +1,7 @@
 module prime(in, isprime); 
 	input [3:0] in;
 	output 	isprime;
-	reg 		isprime;
+	reg 	isprime;
 	
 	always @(in) begin
 		case(in)
