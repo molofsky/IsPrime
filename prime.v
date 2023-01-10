@@ -1,9 +1,13 @@
+/* @author Adrian Molofsky
+*  @version 1/6/23
+* A Verilog function to check if a four bit input is prime
+*/
+
 module prime(in, isprime); 
 	input [3:0] in;
-	output 	isprime;
-	reg 	isprime;
+	output reg isprime;
 	
-	always @(in) begin
+	always @* begin
 		case(in)
 		1, 2 , 3, 5, 7, 11, 13: isprime = 1’b1;
 		default: isprime = 1’b0;
