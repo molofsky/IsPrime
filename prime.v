@@ -1,6 +1,7 @@
-/* @author Adrian Molofsky
-*  @version 1/6/23
-* Verilog function to check if a four bit input is prime
+/* Verilog function to check if a four bit input is prime
+*
+* @author Adrian Molofsky
+* @version 1/6/23
 */
 
 module prime(in, isprime); 
