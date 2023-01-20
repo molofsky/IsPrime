@@ -3,7 +3,6 @@
 * @author Adrian Molofsky
 * @version 1/6/23
 */
-
 module prime(in, isprime); 
 	input [3:0] in;
 	output reg isprime;
